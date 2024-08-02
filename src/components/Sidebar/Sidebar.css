@@ -1,0 +1,45 @@
+.sidebar{
+background: #fff;
+width: 15%;
+height: 100vh;
+position: fixed;
+top: 35px;
+padding-left: 1%;
+padding-top: 80px;
+}
+.sortcut img{
+    width: 20px;
+    margin-right: 20px;
+}
+.sidelinks{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    width: 85%;
+    background: #ccc;
+}
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar p{
+    display: none;
+}
+.subs img{
+    width: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.small-sidebar h3{
+    display: none;
+}
+.sidelinks.active img{
+  padding-bottom: 2px;
+  border-bottom: 3px solid red;
+}

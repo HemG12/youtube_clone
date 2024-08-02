@@ -1,0 +1,21 @@
+.recommend{
+    flex-basis: 30%;
+}
+.side-video{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 8px;
+}
+.side-video img{
+    flex-basis: 49%;
+    width: 40%;
+    
+}
+.info{
+  flex-basis: 49%;
+}
+.info h4{
+    margin-bottom: 7px;
+    font-weight: 600;
+    font-size: 16px;
+}
